@@ -1,0 +1,40 @@
+
+.flexContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    @media (min-width: 378px) {
+        flex-direction: row;
+        gap: 0;
+    }
+}
+
+.textBlock {
+    padding: 12px;
+    margin-top: 24px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.imageContainer {
+    margin-top: 24px;
+}
+
+.textWrapper {
+    img {
+        max-width: 80%;
+    }
+}
+
+.coverImage {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.approveIcon {
+    margin-right: 8px;
+    color: #ffffff;
+}

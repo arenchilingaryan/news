@@ -1,0 +1,30 @@
+.header {
+  background-color: rgba(22, 22, 26, .1);
+  padding: 12px 24px;
+  .title {
+    display: none;
+    font-weight: 700;
+    font-size: 24px;
+    @media (min-width: 540px) {
+      display: block;
+    }
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  div {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+}
+
+.logo {
+  font-size: 24px;
+}
+
+.loginLink {
+  font-size: 16px;
+}

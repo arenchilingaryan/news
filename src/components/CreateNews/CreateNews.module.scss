@@ -1,0 +1,29 @@
+
+.title {
+    margin-bottom: 24px;
+}
+
+.sendButton {
+    margin-top: 24px;
+}
+
+.flexContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.dragAndDrop {
+    margin-bottom: 24px;
+    height: 300px !important;
+}
+
+.dragAndDropDone {
+    background-color: rgba(24, 195, 92, .5);
+    &:hover {
+        background-color: rgba(24, 195, 92, .3) !important;
+    }
+}
+
+.sendButton {
+    margin-top: 64px;
+}
